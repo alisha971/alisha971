@@ -1,10 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="66" viewBox="0 0 960 66" role="img" aria-labelledby="t d">
-<title id="t">Contributions section divider</title>
-<desc id="d">Dark technical grid section divider for Contributions.</desc>
+<title id="t">Contributions section divider</title><desc id="d">Dark technical grid section divider for Contributions.</desc>
 <defs><pattern id="g" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#29313C" stroke-width=".6"/></pattern></defs>
 <rect width="960" height="66" rx="8" fill="#0D1117"/><rect width="960" height="66" rx="8" fill="url(#g)"/>
 <rect x="0" y="0" width="4" height="66" rx="2" fill="#8BD5CA"/><rect x="1" y="1" width="958" height="64" rx="7" fill="none" stroke="#303844"/>
-<text x="24" y="23" font-family="monospace" font-size="9" letter-spacing="2.5" fill="#8BD5CA">05 / DOSSIER</text>
+<text x="24" y="23" font-family="monospace" font-size="9" letter-spacing="2.5" fill="#8BD5CA">05 / SECTION</text>
 <text x="24" y="48" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#F0F3F6">Contributions</text>
 <text x="930" y="25" text-anchor="end" font-family="monospace" font-size="9" letter-spacing="1.5" fill="#8B98A8">CONSISTENCY · ITERATION · PRACTICE</text>
 <path d="M790 49 L815 43 L837 47 L858 34 L880 40 L900 29 L922 34 L938 22" fill="none" stroke="#8BD5CA" stroke-width="1.5" stroke-linecap="round"/>
