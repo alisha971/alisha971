@@ -49,69 +49,129 @@ An ongoing interest in how models process and combine information across modalit
 
 </details>
 
+
 ## Selected Projects
 
 <details>
-<summary><strong>Stratos</strong> · Agentic AI research and idea analysis</summary>
+  <summary><strong>CODA — Conversational Delivery Adaptation</strong> <code><span style="color:#B8A4FF">research</span></code> <code><span style="color:#8BD5CA">audio</span></code> <code><span style="color:#E5B567">in progress</span></code></summary>
 
-An AI-assisted research platform designed to examine ideas from multiple sides, retrieve evidence, and organise findings into a structured analysis.
+  A controlled measurement study investigating whether a conversation partner's prosodic delivery predicts a reply's delivery beyond the words spoken, evaluated on speakers held out from training.
 
-**Stack:** Python, FastAPI, LLMs, retrieval and agent workflows
+  **Focus:** Prosody, conversational function, speaker-disjoint evaluation, statistical controls.
 
-**Repository:** [Stratos](https://github.com/alisha971/Stratos-LLM-Based-Idea-Research-and-Analysis-Platform)
+  **Status:** Under active development; results are not yet available.
 
-</details>
-
-<details>
-<summary><strong>Nimbus Inference Service</strong> · ML model serving</summary>
-
-An inference platform exploring cloud deployment, model lifecycle management, and asynchronous batch prediction workflows.
-
-**Stack:** Google Cloud Run, MLflow, Cloud SQL, Redis, Celery
-
-**Repository:** [Nimbus Inference Service](https://github.com/alisha971/Nimbus-Inference-Service)
+  **Repository:** [alisha971/coda](https://github.com/alisha971/coda)
 
 </details>
 
 <details>
-<summary><strong>PulseBoard</strong> · Event-driven analytics</summary>
+  <summary><strong>Soccer MI — Player Prediction from Match Events</strong> <code><span style="color:#B8A4FF">research</span></code> <code><span style="color:#8BD5CA">transformers</span></code> <code><span style="color:#E5B567">interpretability</span></code></summary>
 
-A distributed analytics platform combining event ingestion, background processing, caching, and dashboard APIs.
+  A sequential prediction project studying on-ball player prediction from soccer event sequences. Compares statistical baselines with transformer models across different context lengths and model depths.
 
-**Stack:** React, Node.js, FastAPI, RabbitMQ, PostgreSQL, Redis, Docker
+  **Focus:** Mechanistic interpretability, event sequences, statistical baselines, transformer evaluation.
 
-**Repository:** [PulseBoard Analytics](https://github.com/alisha971/Pulseboard-Analytics)
-
-</details>
-
-<details>
-<summary><strong>Asset Monitoring API</strong> · Java backend engineering</summary>
-
-A REST API for modelling industrial assets, sensors, measurements, and alerts, with a layered service architecture.
-
-**Stack:** Java, Spring Boot, Maven, REST APIs
-
-**Repository:** [Asset Monitoring API](https://github.com/alisha971/asset-monitoring-api)
+  **Repository:** [alisha971/soccer_mi](https://github.com/alisha971/soccer_mi)
 
 </details>
 
 <details>
-<summary><strong>CampaignIQ</strong> · Predictive marketing analytics</summary>
+  <summary><strong>Introduction to Audio Processing</strong> <code><span style="color:#8BD5CA">learning</span></code> <code><span style="color:#B8A4FF">speech</span></code> <code><span style="color:#E5B567">notebooks</span></code></summary>
 
-A web application for exploring campaign performance and predictive insights through an interactive dashboard.
+  An open learning journal with plain-language concept notes, practical notebooks, and research-paper guides for learning audio and speech processing.
 
-**Stack:** React, Node.js, MongoDB, Python, scikit-learn
+  **Topics:** Digital audio, waveforms, spectrograms, pitch, prosody, feature extraction, and paper reading.
 
-**Repository:** [CampaignIQ](https://github.com/alisha971/CampaignIQ-Predictive-Analytics-for-Marketing-Success)
+  **Repository:** [alisha971/intro_to_audio_processing](https://github.com/alisha971/intro_to_audio_processing)
 
 </details>
 
 <details>
-<summary><strong>More Experiments</strong> · Data, ML and software projects</summary>
+  <summary><strong>Stratos — LLM-Based Idea Research & Analysis</strong> <code><span style="color:#B8A4FF">agentic AI</span></code> <code><span style="color:#8BD5CA">RAG</span></code> <code><span style="color:#E5B567">prototype</span></code></summary>
 
-- [Insurance Company Analysis](https://github.com/alisha971/Insurance-Company-Analysis)
-- [Employee Payroll Management](https://github.com/alisha971/Employee-Payroll-Management)
-- [AI Plays Flappy Bird](https://github.com/alisha971/AI-plays-Flappy-Bird)
+  An AI research platform that turns an initial idea into a structured, two-sided analysis. Its intended workflow combines guided clarification, evidence gathered for and against an idea, source citations, a weighed verdict, and explicit unknowns.
+
+  **Focus:** Agent orchestration, research workflows, evidence retrieval, and structured analysis.
+
+  **Status:** MVP / research prototype under active development.
+
+  **Repository:** [Stratos — public repository](https://github.com/alisha971/Stratos-LLM-Based-Idea-Research-and-Analysis-Platform)
+
+</details>
+
+<details>
+  <summary><strong>Nimbus API — ML Model Serving</strong> <code><span style="color:#8BD5CA">MLOps</span></code> <code><span style="color:#B8A4FF">cloud</span></code> <code><span style="color:#E5B567">inference</span></code></summary>
+
+  A cloud-hosted inference system with synchronous prediction endpoints and asynchronous batch processing, integrating model lifecycle management and cloud infrastructure.
+
+  **Stack:** Google Cloud Run, MLflow, Cloud SQL, Memorystore (Redis), Celery, Google Cloud Storage.
+
+  **Repository:** [Nimbus-Inference-Service](https://github.com/alisha971/Nimbus-Inference-Service)
+
+</details>
+
+<details>
+  <summary><strong>PulseBoard — Distributed Analytics Platform</strong> <code><span style="color:#8BD5CA">backend</span></code> <code><span style="color:#B8A4FF">event-driven</span></code> <code><span style="color:#E5B567">distributed systems</span></code></summary>
+
+  A team productivity analytics platform that decouples event ingestion from background analytics processing using queues, workers, caching, and dedicated services.
+
+  **Stack:** React, Node.js, FastAPI, RabbitMQ, PostgreSQL, Redis, Docker, Nginx.
+
+  **Repository:** [Pulseboard-Analytics](https://github.com/alisha971/Pulseboard-Analytics)
+
+</details>
+
+<details>
+  <summary><strong>Industrial Asset Monitoring API</strong> <code><span style="color:#8BD5CA">Java</span></code> <code><span style="color:#B8A4FF">Spring Boot</span></code> <code><span style="color:#E5B567">REST API</span></code></summary>
+
+  A REST API for industrial assets, sensors, measurements, and operational alerts. It uses layered services and repository abstractions, with alert state transitions and threshold-based escalation.
+
+  **Stack:** Java 25, Spring Boot, Maven, Spring Web, Jakarta Bean Validation.
+
+  **Note:** Current repository implementations store data in memory.
+
+  **Repository:** [asset-monitoring-api](https://github.com/alisha971/asset-monitoring-api)
+
+</details>
+
+<details>
+  <summary><strong>CampaignIQ — Predictive Marketing Analytics</strong> <code><span style="color:#E5B567">machine learning</span></code> <code><span style="color:#8BD5CA">full stack</span></code> <code><span style="color:#B8A4FF">visualisation</span></code></summary>
+
+  A marketing analytics web application combining campaign-performance prediction, interactive dashboards, data visualisation, and an AI chatbot.
+
+  **Stack:** React, Vite, Tailwind CSS, Node.js, Express, MongoDB, Python, scikit-learn, Chart.js.
+
+  **Repository:** [CampaignIQ](https://github.com/alisha971/CampaignIQ-Predictive-Analytics-for-Marketing-Success)
+
+</details>
+
+<details>
+  <summary><strong>Vehicle Insurance Analysis</strong> <code><span style="color:#E5B567">analytics</span></code> <code><span style="color:#8BD5CA">BI dashboard</span></code></summary>
+
+  An interactive business intelligence dashboard analysing vehicle insurance performance from 2014–2018, including customers, premiums, claims, and risk across vehicle segments.
+
+  **Repository:** [Insurance-Company-Analysis](https://github.com/alisha971/Insurance-Company-Analysis)
+
+</details>
+
+<details>
+  <summary><strong>Employee Payroll Management</strong> <code><span style="color:#8BD5CA">full stack</span></code> <code><span style="color:#B8A4FF">automation</span></code></summary>
+
+  A payroll management application covering employee records, attendance, salary calculations, tax deductions, benefits, and reporting.
+
+  **Stack:** React, Node.js, Express.
+
+  **Repository:** [Employee-Payroll-Management](https://github.com/alisha971/Employee-Payroll-Management)
+
+</details>
+
+<details>
+  <summary><strong>AI Plays Flappy Bird</strong> <code><span style="color:#E5B567">AI experiment</span></code> <code><span style="color:#8BD5CA">game development</span></code></summary>
+
+  A Flappy Bird environment created for a team project demonstrating the NEAT evolutionary algorithm. My contribution was building the game environment; the team worked on the algorithm.
+
+  **Repository:** [AI-plays-Flappy-Bird](https://github.com/alisha971/AI-plays-Flappy-Bird)
 
 </details>
 
