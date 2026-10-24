@@ -2,7 +2,9 @@
   <img src="./assets/terminal-boot.svg" alt="Alisha Shaikh — AI/ML Engineer and Researcher" width="100%" />
 </p>
 
-Hey, I'm Alisha! I'm interested in both understanding how machine learning models learn, represent information, and behave, and building useful AI systems around them. I've explored mechanistic interpretability and audio and conversational behaviour, while also working on RAG and agentic research workflows, predictive applications, model-serving infrastructure, and backend systems. I like moving between research questions and hands-on engineering: testing ideas carefully, building things that work, and learning how to make them more reliable.
+Hey, I'm Alisha! 
+
+I'm curious about how AI systems learn, reason, and behave—and I love getting hands-on with building them, too. From exploring research papers on mechanistic interpretability and audio to experimenting with RAG, AI agents, predictive models, and backend systems, I enjoy learning across the stack and figuring things out by building.
 
 [Repositories](https://github.com/alisha971?tab=repositories) · [Research](#01--research) · [Engineering](#02--engineering) · [Tools](#03--tools--technologies) · [Activity](#04--github-activity)
 
