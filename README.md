@@ -10,6 +10,8 @@ I'm interested in understanding what machine learning models learn, how they rep
 
 ## 01 / Research
 
+<p><img src="./assets/research-divider.svg" alt="Research dossier divider" width="100%" /></p>
+
 | Project | Focus |
 |---|---|
 | [Soccer MI](https://github.com/alisha971/soccer_mi) | Studies player prediction from soccer event sequences, comparing statistical baselines—including class and zone priors, Markov models, and logistic regression—with transformer sequence models across contexts and model depths. |
@@ -27,6 +29,8 @@ I'm interested in understanding what machine learning models learn, how they rep
 
 ## 02 / Engineering
 
+<p><img src="./assets/engineering-divider.svg" alt="Engineering dossier divider" width="100%" /></p>
+
 I build AI applications and backend systems, with an emphasis on clear interfaces, modular architecture, and reliable data flow.
 
 | Project | What it explores |
@@ -40,6 +44,8 @@ I build AI applications and backend systems, with an emphasis on clear interface
 ---
 
 ## 03 / Tools & Technologies
+
+<p><img src="./assets/tools-divider.svg" alt="Tools and technologies divider" width="100%" /></p>
 
 **Languages**
 
@@ -57,6 +63,8 @@ I build AI applications and backend systems, with an emphasis on clear interface
 
 ## 04 / GitHub Activity
 
+<p><img src="./assets/activity-divider.svg" alt="GitHub activity divider" width="100%" /></p>
+
 <p>
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=alisha971&show_icons=true&hide_border=true&bg_color=0D1117&title_color=B8A4FF&text_color=C9D1D9&icon_color=8BD5CA" alt="GitHub statistics" />
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alisha971&layout=compact&hide_border=true&bg_color=0D1117&title_color=B8A4FF&text_color=C9D1D9" alt="Most-used repository languages" />
@@ -69,6 +77,8 @@ I build AI applications and backend systems, with an emphasis on clear interface
 ---
 
 ## 05 / Contributions
+
+<p><img src="./assets/contributions-divider.svg" alt="Contributions divider" width="100%" /></p>
 
 <p>
   <picture>
