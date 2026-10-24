@@ -2,7 +2,7 @@
   <img src="./assets/terminal-boot.svg" alt="Alisha Shaikh — AI/ML Engineer and Researcher" width="100%" />
 </p>
 
-I'm interested in understanding what machine learning models learn, how they represent information, and why they behave the way they do. My work spans mechanistic interpretability, audio and conversational behaviour, and building AI systems—from controlled experiments on sequential data to practical applications and backend infrastructure. I enjoy moving between asking research questions, designing evaluations, and building systems that make ideas work in practice.
+Hey, I'm Alisha! I'm interested in both understanding how machine learning models learn, represent information, and behave, and building useful AI systems around them. I've explored mechanistic interpretability and audio and conversational behaviour, while also working on RAG and agentic research workflows, predictive applications, model-serving infrastructure, and backend systems. I like moving between research questions and hands-on engineering: testing ideas carefully, building things that work, and learning how to make them more reliable.
 
 [Repositories](https://github.com/alisha971?tab=repositories) · [Research](#01--research) · [Engineering](#02--engineering) · [Tools](#03--tools--technologies) · [Activity](#04--github-activity)
 
@@ -10,9 +10,9 @@ I'm interested in understanding what machine learning models learn, how they rep
 
 ## 01 / Research
 
-<p><img src="./assets/research-divider.svg" alt="Research dossier divider" width="100%" /></p>
+<p><img src="./assets/research-divider.svg" alt="Research section divider" width="100%" /></p>
 
-| Project | Focus |
+| **Project** | **Focus** |
 |---|---|
 | [Soccer MI](https://github.com/alisha971/soccer_mi) | Studies player prediction from soccer event sequences, comparing statistical baselines—including class and zone priors, Markov models, and logistic regression—with transformer sequence models across contexts and model depths. |
 | [CODA](https://github.com/alisha971/coda) | A controlled measurement study testing whether a conversation partner’s prosodic delivery predicts the reply’s delivery beyond text, using speaker-held-out evaluation. |
@@ -29,11 +29,11 @@ I'm interested in understanding what machine learning models learn, how they rep
 
 ## 02 / Engineering
 
-<p><img src="./assets/engineering-divider.svg" alt="Engineering dossier divider" width="100%" /></p>
+<p><img src="./assets/engineering-divider.svg" alt="Engineering section divider" width="100%" /></p>
 
 I build AI applications and backend systems, with an emphasis on clear interfaces, modular architecture, and reliable data flow.
 
-| Project | What it explores |
+| **Project** | **What it explores** |
 |---|---|
 | [Stratos](https://github.com/alisha971/Stratos-LLM-Based-Idea-Research-and-Analysis-Platform) | An agentic research prototype that guides idea clarification, gathers evidence, develops arguments for and against a claim, and produces a reasoned assessment with citations and unresolved questions. |
 | [Nimbus Inference Service](https://github.com/alisha971/Nimbus-Inference-Service) | Cloud model serving on Google Cloud Run, with MLflow, Cloud SQL, Redis, model artifacts in cloud storage, and Celery-based asynchronous batch inference. |
