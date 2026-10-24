@@ -45,7 +45,11 @@ I build AI applications and backend systems, with an emphasis on clear interface
 
 ## 03 / Tools & Technologies
 
-<p><img src="./assets/tools-divider.svg" alt="Tools and technologies divider" width="100%" /></p>
+<p>
+  <img src="./assets/tools-divider.svg"
+       alt="Tools and technologies divider"
+       width="100%" />
+</p>
 
 **Languages**
 
