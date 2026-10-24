@@ -1,228 +1,196 @@
+<!--
+HYBRID DOSSIER README
+Copy this folder's assets/ directory into your profile repository before committing.
+SVG artwork supplies the visual design; native <details> sections provide real interactions.
+-->
 
-<div align="center">
+<p>
+  <img src="./assets/terminal-boot.svg" alt="Alisha Shaikh — AI/ML Engineer and Researcher" width="100%" />
+</p>
 
-# Alisha Shaikh
-
-**AI Research · Speech & Audio · Intelligent Systems**
-
-*Understanding how models represent information, how they behave, and how we can build better systems around them.*
-
-[Research](#research) · [Projects](#selected-projects) · [Tools](#tools) · [GitHub Activity](#github-activity)
-
-</div>
+[Repositories](https://github.com/alisha971?tab=repositories) · [Research](#01--research) · [Engineering](#02--engineering) · [Tools](#03--tools--technologies) · [Activity](#04--github-activity)
 
 ---
 
-## About
+## 01 / Research
 
-I'm interested in the space between **understanding machine learning models and building with them**.
+<p><img src="./assets/research-divider.svg" alt="Research dossier" width="100%" /></p>
 
-My work and learning span mechanistic interpretability, audio and speech processing, multimodal learning, and AI engineering. I enjoy exploring research questions, turning them into experiments, and building systems that make ideas useful in practice.
-
-This profile is a growing collection of research projects, experiments, engineering work, and notes from things I'm learning.
-
-## Research
+I’m interested in understanding the internal representations and behaviour of machine learning systems, and in studying how information is expressed across sequential and conversational settings.
 
 <details>
-<summary><strong>Mechanistic Interpretability</strong> · Transformer representations</summary>
+<summary><strong>01 — Soccer MI</strong> &nbsp; <code>TRANSFORMERS</code> <code>SEQUENTIAL MODELLING</code></summary>
 
-Exploring how transformer models process information and how internal mechanisms can be studied through controlled experiments.
+**Player Prediction from Match Events**
 
-- [Soccer MI — Player Prediction from Match Events](https://github.com/alisha971/soccer_mi)
+Predicting the on-ball player from soccer event sequences, comparing statistical baselines with transformer models across different contexts and model depths.
+
+- **Focus:** Sequential prediction and model behaviour
+- **Approach:** Statistical baselines compared with transformer sequence models
+- **Status:** Research project
+
+[↗ View repository](https://github.com/alisha971/soccer_mi)
 
 </details>
 
 <details>
-<summary><strong>Audio & Speech</strong> · Prosody and conversational behaviour</summary>
+<summary><strong>02 — CODA</strong> &nbsp; <code>AUDIO</code> <code>PROSODY</code> <code>EXPERIMENTS</code></summary>
 
-Learning the foundations of audio processing while investigating how speech delivery and conversational context relate to one another.
+**Conversational Delivery Adaptation**
 
-- [Introduction to Audio Processing](https://github.com/alisha971/intro_to_audio_processing)
-- [CODA — Conversational Delivery Adaptation](https://github.com/alisha971/coda)
+A controlled measurement study investigating whether a conversation partner’s prosodic delivery predicts the delivery of a reply beyond what can be explained by text.
 
-</details>
+- **Focus:** Conversational prosody and behavioural measurement
+- **Approach:** Speaker-held-out evaluation
+- **Status:** Research in progress
 
-<details>
-<summary><strong>Multimodal AI</strong> · Model behaviour and representations</summary>
-
-An ongoing interest in how models process and combine information across modalities, and how their behaviour can be evaluated and understood.
-
-</details>
-
-
-## Selected Projects
-
-<details>
-  <summary><strong>CODA — Conversational Delivery Adaptation</strong> <code><span style="color:#B8A4FF">research</span></code> <code><span style="color:#8BD5CA">audio</span></code> <code><span style="color:#E5B567">in progress</span></code></summary>
-
-  A controlled measurement study investigating whether a conversation partner's prosodic delivery predicts a reply's delivery beyond the words spoken, evaluated on speakers held out from training.
-
-  **Focus:** Prosody, conversational function, speaker-disjoint evaluation, statistical controls.
-
-  **Status:** Under active development; results are not yet available.
-
-  **Repository:** [alisha971/coda](https://github.com/alisha971/coda)
+[↗ View repository](https://github.com/alisha971/coda)
 
 </details>
 
 <details>
-  <summary><strong>Soccer MI — Player Prediction from Match Events</strong> <code><span style="color:#B8A4FF">research</span></code> <code><span style="color:#8BD5CA">transformers</span></code> <code><span style="color:#E5B567">interpretability</span></code></summary>
+<summary><strong>03 — Intro to Audio Processing</strong> &nbsp; <code>AUDIO FUNDAMENTALS</code> <code>LEARNING</code></summary>
 
-  A sequential prediction project studying on-ball player prediction from soccer event sequences. Compares statistical baselines with transformer models across different context lengths and model depths.
+**A practical audio learning journal**
 
-  **Focus:** Mechanistic interpretability, event sequences, statistical baselines, transformer evaluation.
+Notes, notebooks, paper-reading guides, and experiments covering sampling, spectrograms, pitch, prosody, and feature extraction.
 
-  **Repository:** [alisha971/soccer_mi](https://github.com/alisha971/soccer_mi)
+- **Focus:** Audio and speech processing
+- **Format:** Notes, notebooks, and paper guides
+
+[↗ View repository](https://github.com/alisha971/intro_to_audio_processing)
+
+</details>
+
+### Current research interests
+
+- Mechanistic interpretability and internal representations
+- Audio and speech processing, especially prosody
+- Multimodal learning and model behaviour
+- Experimental design, evaluation, and reproducibility
+
+---
+
+## 02 / Engineering
+
+<p><img src="./assets/engineering-divider.svg" alt="Engineering dossier" width="100%" /></p>
+
+I build AI applications and backend systems, exploring how models, data pipelines, and software architecture fit together in working systems.
+
+<details>
+<summary><strong>01 — Stratos</strong> &nbsp; <code>AGENTIC AI</code> <code>RESEARCH</code> <code>RAG</code></summary>
+
+**Idea Research & Analysis Platform**
+
+An agentic research prototype for guided clarification, evidence retrieval, arguments for and against, and a reasoned assessment of uncertainties.
+
+- **Focus:** Research workflows and evidence synthesis
+- **Stack:** Next.js, FastAPI, agentic AI
+- **Status:** Prototype in development
+
+[↗ View repository](https://github.com/alisha971/Stratos-LLM-Based-Idea-Research-and-Analysis-Platform)
 
 </details>
 
 <details>
-  <summary><strong>Introduction to Audio Processing</strong> <code><span style="color:#8BD5CA">learning</span></code> <code><span style="color:#B8A4FF">speech</span></code> <code><span style="color:#E5B567">notebooks</span></code></summary>
+<summary><strong>02 — Nimbus</strong> &nbsp; <code>MLOPS</code> <code>GCP</code> <code>INFERENCE</code></summary>
 
-  An open learning journal with plain-language concept notes, practical notebooks, and research-paper guides for learning audio and speech processing.
+**Cloud Model Inference Service**
 
-  **Topics:** Digital audio, waveforms, spectrograms, pitch, prosody, feature extraction, and paper reading.
+A cloud-based model-serving platform exploring model lifecycle management, asynchronous batch inference, and supporting infrastructure.
 
-  **Repository:** [alisha971/intro_to_audio_processing](https://github.com/alisha971/intro_to_audio_processing)
+- **Focus:** Model serving and inference infrastructure
+- **Stack:** Google Cloud Run, MLflow, Cloud SQL, Redis, Celery
 
-</details>
-
-<details>
-  <summary><strong>Stratos — LLM-Based Idea Research & Analysis</strong> <code><span style="color:#B8A4FF">agentic AI</span></code> <code><span style="color:#8BD5CA">RAG</span></code> <code><span style="color:#E5B567">prototype</span></code></summary>
-
-  An AI research platform that turns an initial idea into a structured, two-sided analysis. Its intended workflow combines guided clarification, evidence gathered for and against an idea, source citations, a weighed verdict, and explicit unknowns.
-
-  **Focus:** Agent orchestration, research workflows, evidence retrieval, and structured analysis.
-
-  **Status:** MVP / research prototype under active development.
-
-  **Repository:** [Stratos — public repository](https://github.com/alisha971/Stratos-LLM-Based-Idea-Research-and-Analysis-Platform)
+[↗ View repository](https://github.com/alisha971/Nimbus-Inference-Service)
 
 </details>
 
 <details>
-  <summary><strong>Nimbus API — ML Model Serving</strong> <code><span style="color:#8BD5CA">MLOps</span></code> <code><span style="color:#B8A4FF">cloud</span></code> <code><span style="color:#E5B567">inference</span></code></summary>
+<summary><strong>03 — PulseBoard</strong> &nbsp; <code>DISTRIBUTED SYSTEMS</code> <code>EVENT-DRIVEN</code></summary>
 
-  A cloud-hosted inference system with synchronous prediction endpoints and asynchronous batch processing, integrating model lifecycle management and cloud infrastructure.
+**Event-Driven Analytics Platform**
 
-  **Stack:** Google Cloud Run, MLflow, Cloud SQL, Memorystore (Redis), Celery, Google Cloud Storage.
+A team productivity analytics system built around separate services, asynchronous event processing, caching, and a dashboard.
 
-  **Repository:** [Nimbus-Inference-Service](https://github.com/alisha971/Nimbus-Inference-Service)
+- **Focus:** Service architecture and event processing
+- **Stack:** React, FastAPI, Node.js, RabbitMQ, PostgreSQL, Redis
+- **Infrastructure:** Docker Compose and Nginx
 
-</details>
-
-<details>
-  <summary><strong>PulseBoard — Distributed Analytics Platform</strong> <code><span style="color:#8BD5CA">backend</span></code> <code><span style="color:#B8A4FF">event-driven</span></code> <code><span style="color:#E5B567">distributed systems</span></code></summary>
-
-  A team productivity analytics platform that decouples event ingestion from background analytics processing using queues, workers, caching, and dedicated services.
-
-  **Stack:** React, Node.js, FastAPI, RabbitMQ, PostgreSQL, Redis, Docker, Nginx.
-
-  **Repository:** [Pulseboard-Analytics](https://github.com/alisha971/Pulseboard-Analytics)
+[↗ View repository](https://github.com/alisha971/Pulseboard-Analytics)
 
 </details>
 
 <details>
-  <summary><strong>Industrial Asset Monitoring API</strong> <code><span style="color:#8BD5CA">Java</span></code> <code><span style="color:#B8A4FF">Spring Boot</span></code> <code><span style="color:#E5B567">REST API</span></code></summary>
+<summary><strong>04 — Asset Monitoring API</strong> &nbsp; <code>JAVA</code> <code>SPRING BOOT</code> <code>REST</code></summary>
 
-  A REST API for industrial assets, sensors, measurements, and operational alerts. It uses layered services and repository abstractions, with alert state transitions and threshold-based escalation.
+**Industrial Asset Monitoring**
 
-  **Stack:** Java 25, Spring Boot, Maven, Spring Web, Jakarta Bean Validation.
+A REST API modelling industrial assets, sensors, measurements, and alerts, with a layered service architecture and validation.
 
-  **Note:** Current repository implementations store data in memory.
+- **Focus:** Backend engineering and domain modelling
+- **Stack:** Java 25, Spring Boot, Maven
+- **Storage:** In-memory implementation
 
-  **Repository:** [asset-monitoring-api](https://github.com/alisha971/asset-monitoring-api)
-
-</details>
-
-<details>
-  <summary><strong>CampaignIQ — Predictive Marketing Analytics</strong> <code><span style="color:#E5B567">machine learning</span></code> <code><span style="color:#8BD5CA">full stack</span></code> <code><span style="color:#B8A4FF">visualisation</span></code></summary>
-
-  A marketing analytics web application combining campaign-performance prediction, interactive dashboards, data visualisation, and an AI chatbot.
-
-  **Stack:** React, Vite, Tailwind CSS, Node.js, Express, MongoDB, Python, scikit-learn, Chart.js.
-
-  **Repository:** [CampaignIQ](https://github.com/alisha971/CampaignIQ-Predictive-Analytics-for-Marketing-Success)
+[↗ View repository](https://github.com/alisha971/asset-monitoring-api)
 
 </details>
 
 <details>
-  <summary><strong>Vehicle Insurance Analysis</strong> <code><span style="color:#E5B567">analytics</span></code> <code><span style="color:#8BD5CA">BI dashboard</span></code></summary>
+<summary><strong>05 — CampaignIQ</strong> &nbsp; <code>MACHINE LEARNING</code> <code>ANALYTICS</code></summary>
 
-  An interactive business intelligence dashboard analysing vehicle insurance performance from 2014–2018, including customers, premiums, claims, and risk across vehicle segments.
+**Predictive Analytics for Marketing Success**
 
-  **Repository:** [Insurance-Company-Analysis](https://github.com/alisha971/Insurance-Company-Analysis)
+A dashboard combining campaign prediction, interactive analytics, and an AI-assisted interface.
 
-</details>
+- **Focus:** Predictive modelling and analytics
+- **Stack:** React, Node.js, MongoDB, scikit-learn
 
-<details>
-  <summary><strong>Employee Payroll Management</strong> <code><span style="color:#8BD5CA">full stack</span></code> <code><span style="color:#B8A4FF">automation</span></code></summary>
-
-  A payroll management application covering employee records, attendance, salary calculations, tax deductions, benefits, and reporting.
-
-  **Stack:** React, Node.js, Express.
-
-  **Repository:** [Employee-Payroll-Management](https://github.com/alisha971/Employee-Payroll-Management)
+[↗ View repository](https://github.com/alisha971/CampaignIQ-Predictive-Analytics-for-Marketing-Success)
 
 </details>
 
-<details>
-  <summary><strong>AI Plays Flappy Bird</strong> <code><span style="color:#E5B567">AI experiment</span></code> <code><span style="color:#8BD5CA">game development</span></code></summary>
+---
 
-  A Flappy Bird environment created for a team project demonstrating the NEAT evolutionary algorithm. My contribution was building the game environment; the team worked on the algorithm.
-
-  **Repository:** [AI-plays-Flappy-Bird](https://github.com/alisha971/AI-plays-Flappy-Bird)
-
-</details>
-
-## Tools
+## 03 / Tools & Technologies
 
 **Languages**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts&theme=dark" alt="Python, C++, Java, JavaScript and TypeScript" />
-</p>
+<p><img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts,sql" alt="Python, C++, Java, JavaScript, TypeScript and SQL" /></p>
 
 **Machine Learning**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="PyTorch, TensorFlow and scikit-learn" />
-</p>
+<p><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" alt="PyTorch, TensorFlow and scikit-learn" /></p>
 
-**Development & Infrastructure**
+**Backend & Infrastructure**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=fastapi,spring,nodejs,react,mongodb,postgres,redis,docker,git,gcp&theme=dark" alt="FastAPI, Spring, Node.js, React, MongoDB, PostgreSQL, Redis, Docker, Git and Google Cloud" />
-</p>
-
-## GitHub Activity
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=alisha971&show_icons=true&hide_border=true&bg_color=0D1117&title_color=B8A4FF&text_color=C9D1D9&icon_color=8BD5CA" alt="GitHub statistics" />
-
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alisha971&layout=compact&hide_border=true&bg_color=0D1117&title_color=B8A4FF&text_color=C9D1D9" alt="Most-used repository languages" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=alisha971&bg_color=0D1117&color=C9D1D9&line=B8A4FF&point=8BD5CA&area=true&hide_border=true" width="100%" alt="GitHub contribution activity" />
-
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alisha971/alisha971/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alisha971/alisha971/output/github-snake.svg" />
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/alisha971/alisha971/output/github-snake.svg" width="100%" />
-  </picture>
-</div>
+<p><img src="https://skillicons.dev/icons?i=fastapi,spring,nodejs,react,mongodb,postgres,redis,docker,git,gcp" alt="FastAPI, Spring, Node.js, React, MongoDB, PostgreSQL, Redis, Docker, Git and Google Cloud" /></p>
 
 ---
 
-<div align="center">
+## 04 / GitHub Activity
 
-<sub>Study the mechanism. Question the result. Build the system.</sub>
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=alisha971&show_icons=true&hide_border=true&bg_color=0D1117&title_color=B8A4FF&text_color=C9D1D9&icon_color=8BD5CA" alt="GitHub statistics" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alisha971&layout=compact&hide_border=true&bg_color=0D1117&title_color=B8A4FF&text_color=C9D1D9" alt="Most-used repository languages" height="160" />
+</p>
 
-</div>
+<p>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alisha971&bg_color=0D1117&color=C9D1D9&line=B8A4FF&point=8BD5CA&area=true&hide_border=true" alt="GitHub contribution activity graph" width="100%" />
+</p>
+
+---
+
+## 05 / Contributions
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alisha971/alisha971/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alisha971/alisha971/output/github-snake.svg" />
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/alisha971/alisha971/output/github-snake.svg" width="100%" />
+  </picture>
+</p>
+
+---
+
+<sub>Understand the model. Test the hypothesis. Build the system.</sub>

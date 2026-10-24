@@ -1,0 +1,11 @@
+HYBRID DOSSIER README
+
+1. Copy README.md into your profile repository (alisha971/alisha971).
+2. Copy the assets/ folder into the same repository, keeping the folder name 'assets'.
+3. Commit both README.md and assets/.
+4. Preview the profile page.
+
+The SVGs are local assets; the expandable project details are native GitHub Markdown.
+GitHub's renderer controls the styling of <details>/<summary>, so those interactive parts
+cannot be given an arbitrary CSS border. The SVG section dividers and header provide the
+custom visual treatment around them.
