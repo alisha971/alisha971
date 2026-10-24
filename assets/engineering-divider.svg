@@ -1,8 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="78" viewBox="0 0 960 78" role="img" aria-labelledby="t d">
-<title id="t">Engineering section divider</title><desc id="d">Dark technical grid section divider for Engineering.</desc>
-<defs><pattern id="g" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#29313C" stroke-width=".6"/></pattern></defs>
-<rect width="960" height="78" rx="8" fill="#0D1117"/><rect width="960" height="78" rx="8" fill="url(#g)"/>
-<rect x="0" y="0" width="4" height="78" rx="2" fill="#8BD5CA"/><rect x="1" y="1" width="958" height="76" rx="7" fill="none" stroke="#303844"/>
+<title id="t">Engineering section divider</title>
+<desc id="d">Dark technical grid section divider for Engineering.</desc>
+<defs>
+  <pattern id="g" width="18" height="18" patternUnits="userSpaceOnUse">
+    <path d="M18 0H0V18" fill="none" stroke="#29313C" stroke-width=".6"/>
+  </pattern>
+</defs>
+<rect width="960" height="78" rx="8" fill="#0D1117"/>
+<rect width="960" height="78" rx="8" fill="url(#g)"/>
+<rect x="0" y="0" width="4" height="78" rx="2" fill="#8BD5CA"/>
+<rect x="1" y="1" width="958" height="76" rx="7" fill="none" stroke="#303844"/>
 <text x="24" y="27" font-family="monospace" font-size="9" letter-spacing="2.5" fill="#8BD5CA">02 / SECTION</text>
 <text x="24" y="54" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#F0F3F6">Engineering</text>
 <text x="930" y="29" text-anchor="end" font-family="monospace" font-size="9" letter-spacing="1.5" fill="#8B98A8">RAG · AGENTS · INFRASTRUCTURE · SYSTEMS</text>
